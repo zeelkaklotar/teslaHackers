@@ -7,12 +7,14 @@ import Seo from "../components/seo"
 import Navbar from "../components/navbar"
 import * as styles from "../components/index.module.css"
 import HeroSection from "../components/hero"
+import ContactUs from "../components/contactUs"
 
 
 const IndexPage = () => (
   <div className=" h-screen w-screen bg-[#000120]">
     <Navbar />
     <HeroSection />
+    <ContactUs />
   </div>
 )
 
