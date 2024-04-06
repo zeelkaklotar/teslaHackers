@@ -26,7 +26,7 @@ const HeroSection = () => {
   return (
     <div className="flex flex-col md:flex-row h-screen">
       <div className="w-full md:w-1/2 flex items-center justify-center text-white">
-        <div className="p-8 w-full ml-40">
+        <div className="   w-full ml-40">
           {/* First line */}
           <h1 className="text-4xl font-bold">Hi, My name is Zeel</h1>
           {/* New line */}

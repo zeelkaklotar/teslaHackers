@@ -11,11 +11,14 @@ import ContactUs from "../components/contactUs"
 
 
 const IndexPage = () => (
+  <div>  <Navbar/>
   <div className=" h-screen w-screen bg-[#000120]">
-    <Navbar />
+  
     <HeroSection />
     <ContactUs />
   </div>
+  </div>
+
 )
 
 /**
