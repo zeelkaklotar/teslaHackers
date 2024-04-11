@@ -1,72 +1,52 @@
-import React, { useEffect, useRef } from "react"
+import React from "react";
+import Mail from "../images/mail_round.svg";
+import Phone from "../images/phone_round.svg";
 
 const ContactUs = () => {
   return (
-    <div className="bg h-screen w-screen flex flex-row">
-      <div className="flex h-full w-[70%] flex-col items-center justify-center bg-[#000120] text-white">
-        <div className="mb-6 h-auto w-80">
-          <h1 className="text-3xl">Still have questions? Write to us below.</h1>
+    <div class="flex flex-col md:flex-row items-center justify-center h-screen bg-[#000120]">
+  <div class="flex flex-col md:flex-row sm:flex-col h-full w-[90%] md:w-[80%] lg:w-[70%] lg:h-[90%] rounded-3xl bg-white">
+    <div class="flex flex-col justify-center rounded-2xl gap-4 h-full w-full lg:rounded-e-full bg-[#001439] text-white md:w-[40%]">
+      <h1 class="ml-5 text-2xl">Contact Information</h1>
+      <p class="ml-6 w-full md:w-52">
+        Fill out the form and our team will get in touch.
+      </p>
+      <div class="ml-5 flex flex-row justify-start gap-2">
+        <div class="w-7">
+          <img src={Mail} alt="" />
         </div>
-        <p className="h-auto w-80">
-          Please feel free to reach out to us using the form below.
-        </p>
+        <p class="text-l">zeelkaklotar@gmail.com</p>
       </div>
-      <div className="w-[50%] h-full flex items-center justify-center">
-        <div className=" w-96 rounded-3xl bg-gradient-to-r text-white from-blue-800 to-indigo-800">
-          <div className="container mx-auto px-4 py-8">
-            <h1 className="text-3xl font-bold mb-4 flex items-center justify-center">
-              Contact Us
-            </h1>
-            <form action="#" method="POST" className="max-w-md">
-              <div className="mb-4">
-                <label for="name" className="block font-bold mb-2">
-                  Name
-                </label>
-                <input
-                  type="text"
-                  id="name"
-                  name="name"
-                  placeholder="Your Name"
-                  className="w-full px-3 py-2 border rounded-lg focus:outline-none focus:border-blue-500 text-black"
-                ></input>
-              </div>
-              <div className="mb-4">
-                <label for="email" className="block font-bold mb-2">
-                  Email
-                </label>
-                <input
-                  type="email"
-                  id="email"
-                  name="email"
-                  placeholder="Your Email"
-                  className="w-full px-3 py-2 border rounded-lg focus:outline-none focus:border-blue-500 text-black"
-                ></input>
-              </div>
-              <div className="mb-6">
-                <label for="message" className="block font-bold mb-2">
-                  Message
-                </label>
-                <textarea
-                  id="message"
-                  name="message"
-                  placeholder="Your Message"
-                  className="w-full px-3 py-2 border rounded-lg focus:outline-none focus:border-blue-500 text-black"
-                ></textarea>
-              </div>
-              <div className="flex justify-center">
-                <button
-                  type="submit"
-                  className="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded-full transition-all duration-300 ease-in-out"
-                >
-                  Submit
-                </button>
-              </div>
-            </form>
-          </div>
+      <div class="ml-5 flex flex-row justify-start gap-2">
+        <div class="w-7">
+          <img src={Phone} alt="" />
         </div>
+        <p class="text-l">8758969111</p>
       </div>
     </div>
-  )
-}
+    <div class="flex flex-col gap-24 mt-10 p-6 h-full  w-full md:w-[60%]">
+      <div class="flex flex-col-reverse ">
+        <input placeholder="User name" class="border-b-2 border-black outline-none focus:border-blue-500 " />
+      </div>
+      <div class="flex flex-col-reverse">
+        <input placeholder="Mail" class="border-b-2 border-black outline-none focus:border-blue-500" />
+      </div>
+      <div class="flex flex-col-reverse ">
+        <input placeholder="Phone" class="border-b-2 border-black outline-none focus:border-blue-500" />
+      </div>
+      <div class="flex flex-col-reverse ">
+        <textarea placeholder="Message" class="border-b-2 border-black outline-none focus:border-blue-500" />
+      </div>
+      <div class="flex flex-col-reverse bg-blue-900 py-2 rounded-xl text-white hover:bg-blue-500">
+        <button type="submit" class="button-style">
+          Submit
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
 
-export default ContactUs
+  );
+};
+
+export default ContactUs;
