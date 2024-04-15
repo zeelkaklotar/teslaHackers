@@ -1,11 +1,6 @@
 import * as React from "react"
-import { Link } from "gatsby"
-import { StaticImage } from "gatsby-plugin-image"
-
-import Layout from "../components/layout"
 import Seo from "../components/seo"
 import Navbar from "../components/navbar"
-import * as styles from "../components/index.module.css"
 import HeroSection from "../components/hero"
 import Project_details from "../components/project_detail"
 import ContactUs from "../components/contactUs"
