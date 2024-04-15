@@ -1,6 +1,7 @@
 // Project_details.js
 
 import React, { useEffect, useState } from "react";
+import Capture from "../images/capture1.png";
 
 
 function Project_details() {
@@ -33,13 +34,10 @@ function Project_details() {
         <div className="card">
             <div className="card__img" id="img01"></div>
             <div className="card__content">
-              <p className="card__content-theme">Travel</p>
-              <h2 className="card__content-header">Misty mountain</h2>
+              <p className="card__content-theme">Project 01</p>
+              <h2 className="card__content-header">Portfolio Website</h2>
               <p className="card__content-paragraph">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta
-                porro, tempora consequuntur vel dolore assumenda aspernatur cum
-                dignissimos unde reprehenderit sint? Neque, id consequuntur.
-                Quibusdam sit officiis debitis corrupti. Quasi.
+                Portfolio website created using HTML, CSS and  JavaScript to showcase my projects. It includes a brief introduction about me nad my skills.
               </p>
               <a href="#" className="card__content-link">
                 Read
@@ -49,15 +47,12 @@ function Project_details() {
         </div>
         <div className="slide">
         <div className="card">
-            <div className="card__img" id="img01"></div>
+            <div className="card__img" id="img02"></div>
             <div className="card__content">
-              <p className="card__content-theme">Travel</p>
-              <h2 className="card__content-header">Misty mountain</h2>
+              <p className="card__content-theme">Project 02</p>
+              <h2 className=" text-[54px] font-extrabold capitalize">Emergency Application</h2>
               <p className="card__content-paragraph">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta
-                porro, tempora consequuntur vel dolore assumenda aspernatur cum
-                dignissimos unde reprehenderit sint? Neque, id consequuntur.
-                Quibusdam sit officiis debitis corrupti. Quasi.
+                The application was built in Android Java. Used to report crime in near by areas and alert nearby users of emergencies.
               </p>
               <a href="#" className="card__content-link">
                 Read
@@ -67,15 +62,12 @@ function Project_details() {
         </div>
         <div className="slide">
         <div className="card">
-            <div className="card__img" id="img01"></div>
+            <div className="card__img" id="img03"></div>
             <div className="card__content">
-              <p className="card__content-theme">Travel</p>
-              <h2 className="card__content-header">Misty mountain</h2>
+              <p className="card__content-theme">Project 03</p>
+              <h2 className="card__content-header">E-commerce</h2>
               <p className="card__content-paragraph">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta
-                porro, tempora consequuntur vel dolore assumenda aspernatur cum
-                dignissimos unde reprehenderit sint? Neque, id consequuntur.
-                Quibusdam sit officiis debitis corrupti. Quasi.
+                E-commerce website for local vendors to give them growth and increase their sales.
               </p>
               <a href="#" className="card__content-link">
                 Read
