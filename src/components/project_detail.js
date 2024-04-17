@@ -1,7 +1,7 @@
 // Project_details.js
 
 import React, { useEffect, useState } from "react";
-import Capture from "../images/capture1.png";
+
 
 
 function Project_details() {
@@ -38,10 +38,7 @@ function Project_details() {
               <h2 className="card__content-header">Portfolio Website</h2>
               <p className="card__content-paragraph">
                 Portfolio website created using HTML, CSS and  JavaScript to showcase my projects. It includes a brief introduction about me nad my skills.
-              </p>
-              <a href="#" className="card__content-link">
-                Read
-              </a>
+              </p>              
             </div>
           </div>
         </div>
@@ -53,10 +50,7 @@ function Project_details() {
               <h2 className=" text-[54px] font-extrabold capitalize">Emergency Application</h2>
               <p className="card__content-paragraph">
                 The application was built in Android Java. Used to report crime in near by areas and alert nearby users of emergencies.
-              </p>
-              <a href="#" className="card__content-link">
-                Read
-              </a>
+              </p>             
             </div>
           </div>
         </div>
@@ -69,9 +63,6 @@ function Project_details() {
               <p className="card__content-paragraph">
                 E-commerce website for local vendors to give them growth and increase their sales.
               </p>
-              <a href="#" className="card__content-link">
-                Read
-              </a>
             </div>
           </div>
         </div>

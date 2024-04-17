@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import HTML from "../images/html.svg";
 import apiService from "../apiService";
+import Logo from "../images/logo.svg"
 
 const ContactUs = () => {
   const [formData, setFormData] = useState({
@@ -114,7 +115,7 @@ const ContactUs = () => {
         </div>
         <div className=" w-full flex justify-center items-center ">
           <img
-            src={HTML}
+            src={Logo}
             alt="Contact Image"
             width="500"
             height="400"

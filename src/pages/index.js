@@ -9,9 +9,9 @@ import Title from "../components/title"
 import  Footer from "../components/footer"
 
 const IndexPage = () => (
-  <div>  <Navbar/>
+  <div className="">  <Navbar/>
   <div className=" h-screen w-screen bg-[#000120]  ">
-  
+    
     <HeroSection />
     <Project_details />
     <Title />
