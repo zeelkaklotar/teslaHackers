@@ -6,6 +6,7 @@ import Project_details from "../components/project_detail"
 import ContactUs from "../components/contactUs"
 import Story from "../components/story"
 import Title from "../components/title"
+import  Footer from "../components/footer"
 
 const IndexPage = () => (
   <div>  <Navbar/>
@@ -16,6 +17,7 @@ const IndexPage = () => (
     <Title />
     <Story />
     <ContactUs />
+    <Footer />
   </div>
   </div>
 
@@ -29,3 +31,4 @@ const IndexPage = () => (
 export const Head = () => <Seo title="Home" />
 
 export default IndexPage
+

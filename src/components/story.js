@@ -3,7 +3,7 @@ import Tracksvg from "../images/track.svg";
 
 function Story() {
   return (
-    <div className="h-[40%] w-screen  ">
+    <div id="story" className="h-[40%] w-screen  ">
       <div className="">
         <span className=" font-bold text-xl flex items-center justify-center ">
           ---OurStory--

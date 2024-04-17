@@ -33,13 +33,13 @@
   }
   
   #img01{
-    background-image: url("");
+    background-image: url("../images/capture1.png");
   }
   #img02{
-    background-image: url("");
+    background-image: url("../images/capture3.png");
   }
   #img03{
-    background-image: url("");
+    background-image: url("../images/capture2.png");
   }
   
   .card__content{
