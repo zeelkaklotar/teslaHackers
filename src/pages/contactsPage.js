@@ -18,15 +18,7 @@ const ContactsPage = () => {
     }
   };
 
-  const handleDelete = async (id) => {
-    try {
-      await apiService.delete(`/contacts/${id}`);
-      // After successful deletion, fetch contacts again to update the table
-      fetchContacts();
-    } catch (error) {
-      console.error('Error deleting contact:', error);
-    }
-  };
+  
 
   return (
     <div className="max-w-4xl mx-auto px-4 py-8">
@@ -38,7 +30,7 @@ const ContactsPage = () => {
               <th className="px-4 py-2">Name</th>
               <th className="px-4 py-2">Email</th>
               <th className="px-4 py-2">Message</th>
-              <th className="px-4 py-2">Actions</th> {/* New column for delete button */}
+               {/* New column for delete button */}
             </tr>
           </thead>
           <tbody className="">
@@ -47,14 +39,6 @@ const ContactsPage = () => {
                 <td className="px-4 py-2">{contact.name}</td>
                 <td className="px-4 py-2">{contact.email}</td>
                 <td className="px-4 py-2">{contact.message}</td>
-                <td className="px-4 py-2">
-                  <button
-                    className="bg-red-500 text-white rounded-md px-3 py-1"
-                    onClick={() => handleDelete(contact._id)}
-                  >
-                    Delete
-                  </button>
-                </td>
               </tr>
             ))}
           </tbody>
